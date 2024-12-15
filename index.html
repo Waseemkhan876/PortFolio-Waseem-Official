@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <!-- Created By WaseemKhan -->
 <html lang="en">
+    <!-- ========== head section start =========== -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waseem Portfolio Website</title>
     <link rel="stylesheet" href="./Assest/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -14,14 +17,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 </head>
+    <!-- ========== head section End =========== -->
+
+
+     <!-- ========== Body Section Start =========== -->
 <body>
+
+
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
+
+      <!-- ========== Navbar Section Start =========== -->
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
+
+                <span class="moon-sun">
+                <i id="sun" class="fa-solid fa-sun" onclick="myFunctionSun()">
+                    <!-- <span id="sun-text">Light</span> -->
+                </i>
+                <i id="moon" class="fa-solid fa-moon" onclick="myFunctionMoon()">
+                    <!-- <span id="moon-text">Dark</span> -->
+                </i>
+                </span>
+
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
@@ -34,22 +55,25 @@
             </div>
         </div>
     </nav>
+ <!-- ========== Navbar Section End =========== -->
 
-    <!-- home section start -->
-    <section class="home" id="home">
+
+ <!-- ========== Home Section Start =========== -->   
+   <section class="home" id="home">
         <div class="max-width">
-            <div class="home-content">
+            <div id="moonX"  class="home-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Waseem Khan</div>
+                <div class="text-2">Pathan <span id="name-color"> Waseem </span></div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
                 <a href="#">Hire me</a>
                 <a id="p" href="https://waseemkhan876.github.io/FreshFruits/">MyProject</a>
             </div>
         </div>
     </section>
+<!-- ========== Home Section End =========== -->   
 
-    <!-- about section start -->
-    <section class="about" id="about">
+<!-- ========== About Section Start =========== -->       
+ <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
@@ -57,16 +81,17 @@
                     <img src="./Assest/images/myProfile09.jpeg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Waseem Khan and I'm a <span class="typing-2"></span></div>
-                    <p>I want to introduce myself and my skills in a way that is clear, concise, and catches the reader's attention. I am a web developer with years of experience in creating and managing websites. My skills include coding in HTML, CSS, and JavaScript, as well as working with react etc. i am from wangi khurd aurangabad maharashtra 431113 hire me and improve your company goals and my dreams.</p>
-                    <a onclick="location.href='Assest/images/Resume-me.pdf' ; ">Download CV</a>
+                    <div id="about-text" class="text">I'm Pathan Waseem and I'm a <span class="typing-2"></span></div>
+                    <p id="paragraph">I want to introduce myself and my skills in a way that is clear, concise, and catches the reader's attention. I am a web developer with years of experience in creating and managing websites. My skills include coding in HTML, CSS, and JavaScript, as well as working with react etc. i am from wangi khurd aurangabad maharashtra 431113 hire me and improve your company goals and my dreams.</p>
+                    <a onclick="location.href='Assest/images/MY-CV.pdf' ; ">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
+    <!-- ========== About Section End =========== -->   
 
-    <!-- services section start -->
-    <section class="services" id="services">
+<!-- ========== Services Section Start =========== -->       
+ <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">My services</h2>
             <div class="serv-content">
@@ -95,9 +120,11 @@
             </div>
         </div>
     </section>
+<!-- ========== Services Section End =========== -->   
 
-    <!-- skills section start -->
-    <section class="skills" id="skills">
+
+<!-- ========== Skillls Section Start =========== -->       
+ <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
@@ -146,9 +173,10 @@
             </div>
         </div>
     </section>
+<!-- ========== Skills Section End =========== -->   
 
-    <!-- teams section start -->
-    <section class="teams" id="teams">
+<!-- ========== Team Section Start =========== -->   
+     <section class="teams" id="teams">
         <div class="max-width">
             <h2 class="title">My teams</h2>
             <div class="carousel owl-carousel">
@@ -190,9 +218,10 @@
             </div>
         </div>
     </section>
+<!-- ========== Teams Section End =========== -->  
 
-    <!-- contact section start -->
-    <section class="contact" id="contact">
+<!-- ========== Contact Section Start =========== -->   
+     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
@@ -204,7 +233,7 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Waseem Khan</div>
+                                <div class="sub-title">Pathan Waseem</div>
                             </div>
                         </div>
                         <div class="row">
@@ -248,14 +277,19 @@
             </div>
         </div>
     </section>
+    <!-- ========== Contact Section End =========== -->   
 
-    <!-- footer section start -->
-    <footer>
-        <!-- <span>Created By <a href="Waseem Khan">WaseemDeveloper</a> | <span class="far fa-copyright"></span> 2025 All rights reserved.</span> -->
-         <!-- copyright -->
+     <!-- ========== Footer Section Start =========== -->
+     <footer>
         <p> <b>- Created By Waseem Developer -</b></p><p style="color: rgb(138, 139, 139);">Copyright &copy; 2024 - 2025 MyPortFolio. All right reserved</p>
     </footer>
+     <!-- ========== Body Section End =========== -->
 
+
+
+  <!-- ========== JavaScript Link =========== -->
     <script src="./Assest/script/script.js"></script>
 </body>
+     <!-- ========== Body Section End =========== -->
+
 </html>

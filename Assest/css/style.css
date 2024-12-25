@@ -238,7 +238,7 @@ li :hover:after{
     background: black;
 }
 .home .home-content #MyProject{
-    margin: 3px;
+    margin: 10px;
     background: rgb(110, 1, 57);
     color: #fff;
     border: 2px solid  rgb(110, 1, 57);
@@ -734,7 +734,7 @@ footer span a:hover{
         font-size: 25px;
         padding: 14px;
         margin-top: 20px;
-        border-radius: 20px;
+        border-radius: 9px;
     }
     .home .home-content #MyProject{
         margin: 0px;

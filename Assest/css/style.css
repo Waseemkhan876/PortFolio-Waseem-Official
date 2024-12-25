@@ -737,7 +737,7 @@ footer span a:hover{
         border-radius: 5px;
     }
     .home .home-content #MyProject{
-        margin: 0px;
+        margin-left: 10px;
         margin-top: 15px;
     }
 }

@@ -80,7 +80,7 @@ section .title::after{
         transform: rotate(360deg);
     }
 }
-.moon-sun{
+.colors{
     background-color: #645e64;
     border-radius: 10px;
 }
@@ -234,25 +234,25 @@ li :hover:after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
-    background: none;
+    color: rgb(248, 6, 6);
+    background: black;
 }
-.home .home-content #p{
+.home .home-content #MyProject{
     display: inline-block;
-    background: rgb(241, 216, 141);
-    color: #030303;
+    background: rgb(100, 47, 47);
+    color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     margin-left: 10px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid rgb(241, 216, 141);
+    border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.home .home-content #p:hover{
-    color: rgb(20, 220, 47);
-    background: none;
+.home .home-content #MyProject:hover{
+    color: rgb(253, 5, 5);
+    background: black;
 }
 
 /* about section styling */

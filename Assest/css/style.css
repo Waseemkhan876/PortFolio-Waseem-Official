@@ -729,3 +729,15 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+@media (max-width: 367px) {
+    .home .home-content a{
+        font-size: 25px;
+        padding: 14px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .home .home-content #MyProject{
+        margin: 0px;
+        margin-top: 15px;
+    }
+}

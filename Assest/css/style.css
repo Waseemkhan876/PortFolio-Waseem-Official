@@ -238,21 +238,15 @@ li :hover:after{
     background: black;
 }
 .home .home-content #MyProject{
-    display: inline-block;
-    background: rgb(100, 47, 47);
+    margin: 10px;
+    background: rgb(110, 1, 57);
     color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    margin-left: 10px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
+    border: 2px solid  rgb(110, 1, 57);
 }
 .home .home-content #MyProject:hover{
-    color: rgb(253, 5, 5);
+    color: rgb(248, 6, 6);
     background: black;
+    border: 2px solid crimson ;
 }
 
 /* about section styling */
